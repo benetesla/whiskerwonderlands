@@ -26,6 +26,7 @@ const fetctData = async () => {
             setLoading(false)
         }
         fetctData()
+  }
         
 ```
 
