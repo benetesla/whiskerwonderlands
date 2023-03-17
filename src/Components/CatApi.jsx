@@ -36,11 +36,11 @@ const CatApi = () => {
     }
     return (
         <div className="card">
-            <div className="cat-card">
-                <button className="cat-button" onClick={randomFact}>Random Fact</button>
+            <div>
                 <h1 className="cat-title">Cat Fact</h1>
                 <p className="cat-text">{cat.fact}</p>
                 <p className="cat-text">- {cat.length}</p>
+                <button className="cat-button" onClick={randomFact}>Random Fact</button>
             </div>
         </div>
     )

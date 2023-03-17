@@ -4,7 +4,9 @@ import CatApi from './Components/CatApi';
 function App() {
   return (
     <>
+   
       <CatApi />
+    
     </>
   );
 }
