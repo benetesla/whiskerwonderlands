@@ -12,7 +12,7 @@ const CatApi = () => {
             const response = await fetch(ApiUrl)
             const data = await response.json()
             setCat(data)
-            setLoading(true)
+            setLoading(false)
         }
         fetctData()
 
